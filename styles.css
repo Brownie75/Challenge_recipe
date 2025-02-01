@@ -123,7 +123,7 @@ img {
         font-family: 'Outfit';
         font-weight: 600;
         color: hsl(332, 51%, 32%);
-        font-size: 30px;
+        font-size: 22px;
     }
     ol{
         padding-left: 50px;
@@ -133,5 +133,8 @@ img {
     }
     .attribution{
         display: none;
+    }
+    th {
+        color: hsl(14, 45%, 36%);
     }
 }
