@@ -24,7 +24,7 @@ body {
 
 h1, h2{
     font-family: 'Young Serif';
-    font-weight: 400
+    font-weight: 400;
 }
 h2{
     color: hsl(14, 45%, 36%)
@@ -80,4 +80,58 @@ img {
     background-color: hsl(330, 100%, 98%);
     border-radius: 25px;
     padding: 5px 25px;
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8% 0;
+    }
+    img {
+        width: 100%;
+        border-radius: 25px;
+    }
+    .container {
+        background-color: white;
+        padding: 0px;
+        border-radius: 25px;
+        width: 95%;
+    }
+    h1, h2{
+        font-family: 'Young Serif';
+        font-weight: 400;
+        font-size: 60px;
+        padding: 0px 25px;
+    }
+    .preparation {
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 25px;
+        padding: 10px 25px;
+        width: 75%;
+        margin: auto;
+    }
+    p, li, td, th {
+        font-family: 'Outfit';
+        font-size: 20px;
+        color: hsl(30, 10%, 34%);
+        padding: 0px 25px;
+    }
+    h3 {
+        font-family: 'Outfit';
+        font-weight: 600;
+        color: hsl(332, 51%, 32%);
+        font-size: 30px;
+    }
+    ol{
+        padding-left: 50px;
+    }
+    ul{
+        padding-left: 50px;
+    }
+    .attribution{
+        display: none;
+    }
 }
