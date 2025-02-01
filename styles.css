@@ -92,18 +92,19 @@ img {
     }
     img {
         width: 100%;
-        border-radius: 25px;
+        border-radius: 0px;
+       
     }
     .container {
         background-color: white;
-        padding: 0px;
-        border-radius: 25px;
-        width: 95%;
+        padding: 0px 0px;
+        width: 100%;
+        border-radius: 0px;
     }
     h1, h2{
         font-family: 'Young Serif';
         font-weight: 400;
-        font-size: 40px;
+        font-size: 2.5rem;
         padding: 0px 25px;
     }
     .preparation {
@@ -115,7 +116,7 @@ img {
     }
     p, li, td, th {
         font-family: 'Outfit';
-        font-size: 20px;
+        font-size: 1rem;
         color: hsl(30, 10%, 34%);
         padding: 0px 25px;
     }
@@ -123,7 +124,7 @@ img {
         font-family: 'Outfit';
         font-weight: 600;
         color: hsl(332, 51%, 32%);
-        font-size: 22px;
+        font-size: 1.5rem;
     }
     ol{
         padding-left: 50px;
